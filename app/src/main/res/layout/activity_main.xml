@@ -2,32 +2,52 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="24dp"
     android:gravity="center"
-    android:padding="20dp">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/appTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Organ Donation App"
-        android:textSize="26sp"
+        android:text="Organ Donation Dashboard"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginBottom="40dp"/>
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/loginBtn"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_marginBottom="20dp"/>
+        android:id="@+id/donorBtn"
+        android:text="Register Donor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/signupBtn"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="Signup"/>
+        android:id="@+id/requestBtn"
+        android:text="Request Organ"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/hospitalBtn"
+        android:text="Hospital Info"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/adminBtn"
+        android:text="Admin Panel"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/feedbackBtn"
+        android:text="Feedback"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

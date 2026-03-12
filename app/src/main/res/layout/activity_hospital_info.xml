@@ -5,11 +5,19 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/requestContainer"
+        android:id="@+id/hospitalContainer"
         android:orientation="vertical"
         android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Nearby Hospitals"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 

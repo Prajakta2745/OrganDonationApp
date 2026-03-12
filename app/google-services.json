@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "134974702476",
+    "project_id": "organdonationapp-2d7bd",
+    "storage_bucket": "organdonationapp-2d7bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134974702476:android:449e6813dbebe0fafb8ca9",
+        "android_client_info": {
+          "package_name": "com.example.OrganDonationApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb1Z-xBi0ulgU_FX77lsr_gKVHWtr26sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134974702476:android:deb4bedf563b0442fb8ca9",
+        "android_client_info": {
+          "package_name": "com.example.organdonationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb1Z-xBi0ulgU_FX77lsr_gKVHWtr26sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

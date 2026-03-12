@@ -29,10 +29,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <!-- LOGIN BUTTON -->
     <Button
-        android:id="@+id/signupBtn"
+        android:id="@+id/loginBtn"
         android:text="Login"
         android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- SIGNUP BUTTON -->
+    <Button
+        android:id="@+id/signupBtn"
+        android:text="Signup"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
